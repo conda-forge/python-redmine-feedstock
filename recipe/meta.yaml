@@ -1,5 +1,5 @@
 {% set name = "python-redmine" %}
-{% set version = "2.3.0" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-redmine-{{ version }}.tar.gz
-  sha256: 96889d1ae59b5830337e2c2fff1e2ce54103e52bbb632bd7c648f7d2d0274d25
+  sha256: 29e1c479e6bedc4b193f84dda25121a1a0fcc30969c7f0f6e729c5638749e9d8
 
 build:
   noarch: python
