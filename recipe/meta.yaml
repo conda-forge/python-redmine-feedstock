@@ -12,12 +12,13 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
-    - pip
     - python {{ python_min }}
+    - setuptools
+    - pip
   run:
     - python >={{ python_min }}
     - requests >=2.23.0
